@@ -58,7 +58,7 @@ def busca_diaria():
     else:
         print(dados['message'])
 def busca_personalizada():
-    options = ['Euro', 'Dólar', 'Bitcoin']
+    options = ['Euro', 'Dólar Americano', 'Bitcoin', 'Ethereum','Dolár Canadense' ]
     # Display options to the user
     print("Segue as moedas disponíveis para pesquisa:")
     for index, option in enumerate(options, start=1):
